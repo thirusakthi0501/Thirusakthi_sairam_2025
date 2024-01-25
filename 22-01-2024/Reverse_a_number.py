@@ -34,7 +34,7 @@ def reverse(n):
     return int(str(n)[::-1])
 N = int(input())
 if N <= 10000:
-    r_N = reverse(N)
-    print(r_N)
+    r = reverse(N)
+    print(rN)
 else:
     print("Input value exceeds the constraint (N <= 1000).")
